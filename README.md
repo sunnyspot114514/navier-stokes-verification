@@ -1,6 +1,6 @@
 # Navier–Stokes 形式化验核记录
 
-**默认构建和 27 个声明的公理检查均通过，六份配置的题面比对与内核重放正在运行。** 验核对象为 [上游固定提交](https://github.com/tristanbuckmaster/navier-stokes/tree/ad53419de079eb8f95f60313473374624a348546)。
+**默认构建和 27 个声明的公理检查均通过，已有四份配置通过题面对照与内核重放，覆盖 17/19 个不同定理。** 验核对象为 [上游固定提交](https://github.com/tristanbuckmaster/navier-stokes/tree/ad53419de079eb8f95f60313473374624a348546)。
 
 指定实例上，`lake build` 用时 58 分 13 秒，退出码为 `0`，Lake 报告全部 10,987 项任务完成。对解答执行上游公理查询后，27 个声明的输出均只使用三项获准公理。[完整构建日志](logs/build.log.gz) · [各声明的公理](axioms.json)
 
@@ -18,3 +18,12 @@
 论文第 1 页与第 4 页给出相同的 64 位十六进制证书摘要。实例使用 SHA-256 比对了全部 2,285 个受版本控制文件，无整文件匹配。论文提取文本中未找到 SHA-256 算法名称。相关记录见[证书检查](certificate-check.json)和[运行环境](environment.json)。
 
 论文所述数值证书及配套区间算术程序未随此提交发布。要验证具体数据满足形式定理的假设，还需要这些材料。[上游对验核范围的说明](https://github.com/tristanbuckmaster/navier-stokes/blob/ad53419de079eb8f95f60313473374624a348546/README.md)
+
+## 已通过的题面对照与内核重放
+
+与固定提交对应的四份完整日志已上传。
+
+- [基础定理，3 个目标](logs/comparator.log.gz)
+- [证书相关定理，9 个目标](logs/comparator-certificate.log.gz)
+- [附录 B 单元层定理，3 个目标](logs/comparator-cell-layer.log.gz)
+- [分数阶方程定理，2 个目标](logs/comparator-fractional.log.gz)
