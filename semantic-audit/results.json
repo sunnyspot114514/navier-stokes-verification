@@ -1,0 +1,76 @@
+{
+  "upstream_commit": "ad53419de079eb8f95f60313473374624a348546",
+  "baseline_verification_commit": "ed37904b2a9ee23eb0c4b77df6b48d89089e6115",
+  "comparator_commit": "3927ad383f208ae977c340a91c48ac9b497d2097",
+  "toolchain": "Lean 4.33.1",
+  "snapshot_checks_after_run": {
+    "primary": {
+      "tracked_files_checked": 2285,
+      "dependency_commits_checked": 9,
+      "solution_olean_sha256": "e4a42ed364f5f28efca60b21b9ad1f0373a57e6121b9bda4fb56ad70f90ffb89",
+      "mathlib_root_olean_sha256": "35ab1ec9b0fad25ed6f1f267d045812c90505d81472bcaafb6b93d0e05938ff7"
+    },
+    "independent": {
+      "tracked_files_checked": 2285,
+      "dependency_commits_checked": 9,
+      "solution_olean_sha256": "e4a42ed364f5f28efca60b21b9ad1f0373a57e6121b9bda4fb56ad70f90ffb89",
+      "mathlib_root_olean_sha256": "35ab1ec9b0fad25ed6f1f267d045812c90505d81472bcaafb6b93d0e05938ff7"
+    },
+    "strict_replica": {
+      "tracked_files_checked": 2285,
+      "dependency_commits_checked": 9,
+      "solution_olean_sha256": "e4a42ed364f5f28efca60b21b9ad1f0373a57e6121b9bda4fb56ad70f90ffb89",
+      "mathlib_root_olean_sha256": "35ab1ec9b0fad25ed6f1f267d045812c90505d81472bcaafb6b93d0e05938ff7"
+    }
+  },
+  "extra_official_comparator_runs": [
+    {
+      "run": "cell",
+      "exit_code": 1,
+      "start_utc": "2026-11-20T20:34:34Z",
+      "finish_utc": "2026-11-20T20:40:59Z",
+      "diagnostic": "Const does not match between challenge and target 'Breakdown.AdjointDefect.transposeApply'"
+    },
+    {
+      "run": "cell-replica",
+      "exit_code": 1,
+      "start_utc": "2026-11-20T20:43:01Z",
+      "finish_utc": "2026-11-20T20:51:31Z",
+      "diagnostic": "Const does not match between challenge and target 'Breakdown.AdjointDefect.transposeApply'"
+    }
+  ],
+  "closure": {
+    "upstream_statement_module": "CellLayerTheorems",
+    "alternative_public_statement_module": "CellLayerChallenge",
+    "target_types_equal": 3,
+    "reachable_local_names": 2075,
+    "common_declarations": 2066,
+    "nonidentical_common_bodies": 95,
+    "normalised_only_proof_names_count": 95,
+    "kernel_definitional_equality_both_environments": 95,
+    "single_environment_names": 9,
+    "proof_names_classified": 11,
+    "distinct_auxiliary_propositions": 4,
+    "unequal_control_rejected_in_both": true
+  },
+  "semantic_probes": 8,
+  "coordinate_formula_checks": 2,
+  "proof_route_roots": 4,
+  "paper_certificate_satisfiability": "not established",
+  "numerical_certificate_replay": "not run; payload and verifier absent in pinned upstream",
+  "initial_environment_recovery": "A root Lake probe attempted to re-fetch the existing Mathlib cache. The verified replica restored the pinned dependency; the second strict run and the semantic probes used independently checked, unprivileged replicas.",
+  "evidence_logs": {
+    "logs/strict-main.log.gz": {
+      "raw_sha256": "a83861c3d5629269f34341f7c48a2199a7706244f36664572d82af43cfb162a0",
+      "normalization": "instance work directory replaced by $RUN",
+      "normalized_sha256": "a83861c3d5629269f34341f7c48a2199a7706244f36664572d82af43cfb162a0",
+      "gzip_sha256": "db61df35982d1c17c5bff7d2310bd312f8cef094ff651e33c5f085c9b4a1ab4b"
+    },
+    "logs/strict-replica.log.gz": {
+      "raw_sha256": "e913f28118595b03087cbd02fc419e70a443f0066307d3cf5feade7ae8ba0cd6",
+      "normalization": "instance work directory replaced by $RUN",
+      "normalized_sha256": "e913f28118595b03087cbd02fc419e70a443f0066307d3cf5feade7ae8ba0cd6",
+      "gzip_sha256": "c715d9ddafdde40ef88e5b4eb2aa5ff7ea6945882bc1d1065c2d95bdb93d7362"
+    }
+  }
+}

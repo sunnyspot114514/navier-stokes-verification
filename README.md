@@ -25,6 +25,8 @@
 
 ## 复核材料
 
+- [补充语义审计：附录 B 的两份题面，以及论文与 Lean 定理的差异](semantic-audit/README.md)
+
 - [完整机器报告、逐项退出码、时间及日志 SHA-256](verification.json)
 - [默认构建完整日志](logs/build.log.gz)
 - [源码、上游比较配置和目标定理清单](source-inventory.json)

@@ -1,0 +1,8 @@
+'SemanticAudit.unforcedMomentum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SemanticAudit.centreAdmissible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SemanticAudit.centreProfileNotZero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SemanticAudit.zeroRowMeetsPaperRowClause' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SemanticAudit.certifiedRowNotZero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SemanticAudit.continuityDoesNotGiveParameterDerivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SemanticAudit.decayUpdatePreservesWitnessFields' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SemanticAudit.certificateToSmoothAndBreakdown' depends on axioms: [propext, Classical.choice, Quot.sound]

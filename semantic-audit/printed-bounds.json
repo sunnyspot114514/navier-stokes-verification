@@ -1,0 +1,16 @@
+{
+  "scope": "Conditional implications between printed scalar bounds; no certificate inputs read.",
+  "pi_upper": "22/7",
+  "sqrt_39_over_50_upper": "552/625",
+  "c0_squared_lower": "163840625/24576",
+  "c2_squared_lower": "50000/3",
+  "cL_lower": "7373/75",
+  "checks": {
+    "sqrt_w_upper_squared_exceeds_w": true,
+    "c0_above_81.64": true,
+    "c2_above_129": true,
+    "cL_above_98.3": true,
+    "M_below_0.01695": true,
+    "epsilon_below_0.0075": true
+  }
+}

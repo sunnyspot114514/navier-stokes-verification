@@ -1,0 +1,15 @@
+{
+  "challenge_module": "CellLayerChallenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Breakdown.CellLayerSystem.breakdownOnSpace_of_cell_system_condition",
+    "Breakdown.CellLayerSystem.breakdownOnTorus_of_cell_system_condition",
+    "Breakdown.CellLayerSystem.breakdownOnSpaceAndTorus_of_cell_system_condition"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}
