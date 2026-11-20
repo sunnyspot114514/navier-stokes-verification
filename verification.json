@@ -1,0 +1,255 @@
+{
+  "upstream": "https://github.com/tristanbuckmaster/navier-stokes",
+  "commit": "ad53419de079eb8f95f60313473374624a348546",
+  "formal_verification_status": "passed",
+  "upstream_source_rechecked_after_run": true,
+  "verified_dependency_commits_after_run": {
+    "mathlib": {
+      "revision": "0df444a360eaa60ab8c11dca51a86af692955474",
+      "matches_lock": true,
+      "tracked_files_clean": true
+    },
+    "plausible": {
+      "revision": "b7eb3304aeae834b12dda98993a37f6a41f6f0bb",
+      "matches_lock": true,
+      "tracked_files_clean": true
+    },
+    "LeanSearchClient": {
+      "revision": "5f4d51b81cbd3f6b32b156bfad9056621a040404",
+      "matches_lock": true,
+      "tracked_files_clean": true
+    },
+    "importGraph": {
+      "revision": "16f02aa7642864af59f1ff0e384a015994db9118",
+      "matches_lock": true,
+      "tracked_files_clean": true
+    },
+    "proofwidgets": {
+      "revision": "4be2e3d5087eeb272cf5a8853b8f9dd025ef5957",
+      "matches_lock": true,
+      "tracked_files_clean": true
+    },
+    "aesop": {
+      "revision": "3448c0bcc5ce01b2d1546e483ec3620e32df3d0e",
+      "matches_lock": true,
+      "tracked_files_clean": true
+    },
+    "Qq": {
+      "revision": "92c15be17b7caf78c2ad767ec40f89052d908d81",
+      "matches_lock": true,
+      "tracked_files_clean": true
+    },
+    "batteries": {
+      "revision": "4488d40d070b9700d4d5a6aa342f0d40c31b2a2d",
+      "matches_lock": true,
+      "tracked_files_clean": true
+    },
+    "Cli": {
+      "revision": "6130a47896ce867c6a4a55373441e59e565bad0f",
+      "matches_lock": true,
+      "tracked_files_clean": true
+    }
+  },
+  "cache": {
+    "exit_code": 0,
+    "started_utc": "2026-11-20T18:17:09Z",
+    "finished_utc": "2026-11-20T18:19:18Z",
+    "elapsed_seconds": 129
+  },
+  "default_build": {
+    "exit_code": 0,
+    "started_utc": "2026-11-20T18:19:18Z",
+    "finished_utc": "2026-11-20T19:17:31Z",
+    "elapsed_seconds": 3493,
+    "success_message": [
+      "Build completed successfully (10987 jobs)."
+    ],
+    "failed_targets": [],
+    "first_error_lines": []
+  },
+  "solution_target_retry": {
+    "exit_code": null,
+    "started_utc": null,
+    "finished_utc": null
+  },
+  "axiom_print_run": {
+    "exit_code": 0,
+    "started_utc": "2026-11-20T19:17:31Z",
+    "finished_utc": "2026-11-20T19:17:39Z",
+    "elapsed_seconds": 8
+  },
+  "axiom_allowlist_check": {
+    "exit_code": 0,
+    "started_utc": "2026-11-20T19:17:41Z",
+    "finished_utc": "2026-11-20T19:17:41Z",
+    "elapsed_seconds": 0
+  },
+  "axiom_result": "passed",
+  "axioms_reported_for_declarations": 27,
+  "comparators": {
+    "comparator-cell-layer.json": {
+      "exit_code": 0,
+      "started_utc": "2026-11-20T19:43:03Z",
+      "finished_utc": "2026-11-20T20:10:21Z",
+      "elapsed_seconds": 1638,
+      "checkout": "primary",
+      "source_and_dependency_pins_rechecked": true,
+      "theorem_names": [
+        "Breakdown.CellLayerSystem.breakdownOnSpace_of_cell_system_condition",
+        "Breakdown.CellLayerSystem.breakdownOnTorus_of_cell_system_condition",
+        "Breakdown.CellLayerSystem.breakdownOnSpaceAndTorus_of_cell_system_condition"
+      ],
+      "kernel_acceptance_message": true,
+      "status": "passed"
+    },
+    "comparator-certificate.json": {
+      "exit_code": 0,
+      "started_utc": "2026-11-20T19:28:19Z",
+      "finished_utc": "2026-11-20T19:43:03Z",
+      "elapsed_seconds": 884,
+      "checkout": "primary",
+      "source_and_dependency_pins_rechecked": true,
+      "theorem_names": [
+        "Breakdown.certificate_orbit",
+        "Breakdown.ModeWeights.multiplier_density",
+        "Breakdown.ModeWeights.mode_azimuthal_gain",
+        "Breakdown.ModeWeights.stretch_mean_bound",
+        "Breakdown.ModeWeights.multiplierInequality_of_density",
+        "Breakdown.PieceWeights.piece_multiplier_density",
+        "Breakdown.PieceWeights.multiplierInequality_of_pieceDensity",
+        "Breakdown.extended_certificate_orbit",
+        "Breakdown.CoerciveWeak.extendedCoerciveClause_of_pieceData"
+      ],
+      "kernel_acceptance_message": true,
+      "status": "passed"
+    },
+    "comparator-fractional-cell-system.json": {
+      "exit_code": 0,
+      "started_utc": "2026-11-20T19:53:07Z",
+      "finished_utc": "2026-11-20T20:29:44Z",
+      "elapsed_seconds": 2197,
+      "checkout": "fractional-cell",
+      "source_and_dependency_pins_rechecked": true,
+      "theorem_names": [
+        "Breakdown.CellCert.CellSystem.fractional_breakdown_of_cell_system"
+      ],
+      "kernel_acceptance_message": true,
+      "status": "passed"
+    },
+    "comparator-fractional-certificate.json": {
+      "exit_code": 0,
+      "started_utc": "2026-11-20T20:17:39Z",
+      "finished_utc": "2026-11-20T20:28:17Z",
+      "elapsed_seconds": 638,
+      "checkout": "fractional",
+      "source_and_dependency_pins_rechecked": true,
+      "theorem_names": [
+        "Breakdown.SteadyCert.fracCertificate_profile"
+      ],
+      "kernel_acceptance_message": true,
+      "status": "passed"
+    },
+    "comparator-fractional.json": {
+      "exit_code": 0,
+      "started_utc": "2026-11-20T19:53:07Z",
+      "finished_utc": "2026-11-20T20:17:31Z",
+      "elapsed_seconds": 1464,
+      "checkout": "fractional",
+      "source_and_dependency_pins_rechecked": true,
+      "theorem_names": [
+        "Breakdown.fractional_breakdown_on_space",
+        "Breakdown.fractional_breakdown_on_torus"
+      ],
+      "kernel_acceptance_message": true,
+      "status": "passed"
+    },
+    "comparator.json": {
+      "exit_code": 0,
+      "started_utc": "2026-11-20T19:17:42Z",
+      "finished_utc": "2026-11-20T19:28:19Z",
+      "elapsed_seconds": 637,
+      "checkout": "primary",
+      "source_and_dependency_pins_rechecked": true,
+      "theorem_names": [
+        "Breakdown.breakdown_on_space",
+        "Breakdown.breakdown_on_torus",
+        "Breakdown.breakdown_on_space_of_weak"
+      ],
+      "kernel_acceptance_message": true,
+      "status": "passed"
+    }
+  },
+  "comparator_skip_reason": null,
+  "numerical_certificate_verification": "not_run_missing_upstream_inputs",
+  "comparator_version": {
+    "source_commit": "3927ad383f208ae977c340a91c48ac9b497d2097",
+    "exporter_commit": "15f6055e299ad5b89345e533cc2192f4cc00f659",
+    "landrun_commit": "62823c05e58ec22c1f91b4c8468318c1f97f2d32",
+    "lean_toolchain": "4.33.1",
+    "additional_kernel": "none"
+  },
+  "generated_at_utc": "2026-11-20T20:29:49+00:00",
+  "logs": {
+    "logs/cache.log.gz": {
+      "source_log_sha256": "1f386109c9dd337a6123f1606981b3671bc93e43d4066da65a33cd0292e626af",
+      "normalized_log_sha256": "1f386109c9dd337a6123f1606981b3671bc93e43d4066da65a33cd0292e626af",
+      "gzip_sha256": "758b971d204ee751c851939ce29b8a67f01b7b7165270c4042faa2817137b521",
+      "bytes": 10102
+    },
+    "logs/build.log.gz": {
+      "source_log_sha256": "7c8be407ff3bd8b9ab7fa570cc58f4e9d4c37b52b684029e7be27ede024a36d5",
+      "normalized_log_sha256": "7c8be407ff3bd8b9ab7fa570cc58f4e9d4c37b52b684029e7be27ede024a36d5",
+      "gzip_sha256": "d1d02c87fc0d6d67d68c55edc56d66744db98cbccba01842a5084fdf49697b2d",
+      "bytes": 75739
+    },
+    "logs/axioms.log.gz": {
+      "source_log_sha256": "b4bca24d262dcd32fbd49d29d669098aa68ad7cef1ee19b459e28103c6fa4505",
+      "normalized_log_sha256": "b4bca24d262dcd32fbd49d29d669098aa68ad7cef1ee19b459e28103c6fa4505",
+      "gzip_sha256": "b686286045604998120d2e5b0576e7930119e0c74c396a46740c8d1c296ecf0b",
+      "bytes": 459
+    },
+    "logs/axiom-check.log.gz": {
+      "source_log_sha256": "249143ef91fb3d8692641e87fa947da2f04692540cd633e5a64b02cc2fb757b3",
+      "normalized_log_sha256": "249143ef91fb3d8692641e87fa947da2f04692540cd633e5a64b02cc2fb757b3",
+      "gzip_sha256": "7ea1847ff1a64d78daa0bdd719398160e5be0b9fbab79b377326f23b32ba6870",
+      "bytes": 63
+    },
+    "logs/comparator-cell-layer.log.gz": {
+      "source_log_sha256": "21b4753246c596f9ad8a0bf4db271c409e8a0ca7c8dc4cce93557ebdbb6a4be0",
+      "normalized_log_sha256": "21b4753246c596f9ad8a0bf4db271c409e8a0ca7c8dc4cce93557ebdbb6a4be0",
+      "gzip_sha256": "a954596b599b5317a59bea425ffa1a189597e2aeb5b5096f18c728c8e238da05",
+      "bytes": 45004
+    },
+    "logs/comparator-certificate.log.gz": {
+      "source_log_sha256": "45de904eea07dad43f3e1def08875cf94ecacadfd07cf68eacf4dfc8a822985c",
+      "normalized_log_sha256": "45de904eea07dad43f3e1def08875cf94ecacadfd07cf68eacf4dfc8a822985c",
+      "gzip_sha256": "5da436ff77efb3b01ffd95ca80627149ec78d1d142dd245766e3de8abb21b58b",
+      "bytes": 45534
+    },
+    "logs/comparator-fractional-cell-system.log.gz": {
+      "source_log_sha256": "7cf7fec0d4f17e0e34a40b8f5ec9c3cb5ebdaf254fead6cd300b2ea28bbf3a45",
+      "normalized_log_sha256": "7cf7fec0d4f17e0e34a40b8f5ec9c3cb5ebdaf254fead6cd300b2ea28bbf3a45",
+      "gzip_sha256": "07b03e395f9c124fe080fa4d77208f67ec761e1229834e8c0ff73b8d68c1dd35",
+      "bytes": 45616
+    },
+    "logs/comparator-fractional-certificate.log.gz": {
+      "source_log_sha256": "02a1fa130d962e1c1d1078211da0f0fdc13808164f69667667b13505854e7f2e",
+      "normalized_log_sha256": "02a1fa130d962e1c1d1078211da0f0fdc13808164f69667667b13505854e7f2e",
+      "gzip_sha256": "4df82624c005b05681ad8feb46f6283a3a6b1eedfac50f188dbdc7247fbdc237",
+      "bytes": 44723
+    },
+    "logs/comparator-fractional.log.gz": {
+      "source_log_sha256": "4634321daee5c240980d159b3765cc12ad6c38aa4de3efa844c51c724f065ee6",
+      "normalized_log_sha256": "4634321daee5c240980d159b3765cc12ad6c38aa4de3efa844c51c724f065ee6",
+      "gzip_sha256": "45ecf3ae65947b3d97d1abeb2fe53f68b0941fb8f21f963d4c6161b558bfaa5a",
+      "bytes": 45869
+    },
+    "logs/comparator.log.gz": {
+      "source_log_sha256": "bc7e8ff9849def05ff0514fa6e139bac79065d7392307d3e86f01870bcaf140b",
+      "normalized_log_sha256": "bc7e8ff9849def05ff0514fa6e139bac79065d7392307d3e86f01870bcaf140b",
+      "gzip_sha256": "8e4588a8e4b2bbac955bf39d24b4639a1cd06ee657c622a699a78625968b3477",
+      "bytes": 45042
+    }
+  },
+  "log_normalization": "Absolute verification-directory prefixes are replaced by $RUN before gzip compression."
+}
