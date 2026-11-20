@@ -1,0 +1,17 @@
+{
+  "upstream_commit": "ad53419de079eb8f95f60313473374624a348546",
+  "paper": "paper/finite-time-blow-up-navier-stokes.pdf",
+  "pdf_sha256": "4a01929b2f8a595637bbbe1dfef9724e5de768d31283d62415ce045e2ed69901",
+  "published_certificate_digest": "3f7a335b84b6c7631742cacc5343dfcd11cf72f5221ff79b2b9268790b4b22c5",
+  "pdf_pages_with_digest": [
+    1,
+    4
+  ],
+  "pdf_text_contains_sha256_algorithm_name": false,
+  "comparison_algorithm": "SHA-256",
+  "compared_tracked_files": 2285,
+  "matching_whole_files": [],
+  "numerical_verification": "not_run",
+  "reason": "The upstream README states that this revision omits the certificate and its interval-arithmetic verification code.",
+  "scope": "Whole tracked file bytes only. The comparison does not establish the contents of a missing certificate."
+}
