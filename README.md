@@ -1,6 +1,8 @@
 # Navier–Stokes 形式化验核记录
 
-**源码与九项依赖已核对，8,690 个 Mathlib 缓存文件已解压，Lean 完整构建正在运行。** 验核对象为 [上游固定提交](https://github.com/tristanbuckmaster/navier-stokes/tree/ad53419de079eb8f95f60313473374624a348546)。
+**默认构建和 27 个声明的公理检查均通过，六份配置的题面比对与内核重放正在运行。** 验核对象为 [上游固定提交](https://github.com/tristanbuckmaster/navier-stokes/tree/ad53419de079eb8f95f60313473374624a348546)。
+
+指定实例上，`lake build` 用时 58 分 13 秒，退出码为 `0`，Lake 报告全部 10,987 项任务完成。对解答执行上游公理查询后，27 个声明的输出均只使用三项获准公理。[完整构建日志](logs/build.log.gz) · [各声明的公理](axioms.json)
 
 指定 Linux 实例上检出的 2,285 个受版本控制文件，其 Git blob 哈希和可执行位均与提交 `ad53419de079eb8f95f60313473374624a348546` 一致。Git 树为 `96db4860a29e55ea2dc3fb8929e76f128fcc1712`。
 

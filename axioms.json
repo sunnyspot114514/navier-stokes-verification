@@ -1,0 +1,200 @@
+{
+  "status": "passed",
+  "planned_declarations": [
+    "Breakdown.breakdown_on_space",
+    "Breakdown.breakdown_on_torus",
+    "Breakdown.breakdown_on_space_of_weak",
+    "Breakdown.fractional_breakdown_on_space",
+    "Breakdown.fractional_breakdown_on_torus",
+    "Breakdown.certificate_orbit",
+    "Breakdown.ModeWeights.multiplier_density",
+    "Breakdown.ModeWeights.mode_azimuthal_gain",
+    "Breakdown.ModeWeights.stretch_mean_bound",
+    "Breakdown.ModeWeights.multiplierInequality_of_density",
+    "Breakdown.PieceWeights.piece_multiplier_density",
+    "Breakdown.PieceWeights.multiplierInequality_of_pieceDensity",
+    "Breakdown.isExtendedCertificate_withUnitWeight",
+    "Breakdown.isExtendedCertificate_atProfile",
+    "Breakdown.extended_certificate_orbit",
+    "Breakdown.CoerciveWeak.IsWeakSecondDerivState.secondDeriv_symm",
+    "Breakdown.CoerciveWeak.vortGradMap_secondDerivField",
+    "Breakdown.CoerciveWeak.pieceMultiplierDensityWeak",
+    "Breakdown.CoerciveWeak.extendedCoerciveClause_of_pieceData",
+    "Breakdown.SteadyCert.fracCertificate_profile",
+    "Breakdown.certificate_breakdown_on_space",
+    "Breakdown.extended_certificate_breakdown_on_space",
+    "Breakdown.fractional_certificate_breakdown",
+    "Breakdown.CellCert.CellSystem.fractional_breakdown_of_cell_system",
+    "Breakdown.CellLayerSystem.breakdownOnSpace_of_cell_system_condition",
+    "Breakdown.CellLayerSystem.breakdownOnTorus_of_cell_system_condition",
+    "Breakdown.CellLayerSystem.breakdownOnSpaceAndTorus_of_cell_system_condition"
+  ],
+  "comparators_cover": [
+    "Breakdown.CellCert.CellSystem.fractional_breakdown_of_cell_system",
+    "Breakdown.CellLayerSystem.breakdownOnSpaceAndTorus_of_cell_system_condition",
+    "Breakdown.CellLayerSystem.breakdownOnSpace_of_cell_system_condition",
+    "Breakdown.CellLayerSystem.breakdownOnTorus_of_cell_system_condition",
+    "Breakdown.CoerciveWeak.extendedCoerciveClause_of_pieceData",
+    "Breakdown.ModeWeights.mode_azimuthal_gain",
+    "Breakdown.ModeWeights.multiplierInequality_of_density",
+    "Breakdown.ModeWeights.multiplier_density",
+    "Breakdown.ModeWeights.stretch_mean_bound",
+    "Breakdown.PieceWeights.multiplierInequality_of_pieceDensity",
+    "Breakdown.PieceWeights.piece_multiplier_density",
+    "Breakdown.SteadyCert.fracCertificate_profile",
+    "Breakdown.breakdown_on_space",
+    "Breakdown.breakdown_on_space_of_weak",
+    "Breakdown.breakdown_on_torus",
+    "Breakdown.certificate_orbit",
+    "Breakdown.extended_certificate_orbit",
+    "Breakdown.fractional_breakdown_on_space",
+    "Breakdown.fractional_breakdown_on_torus"
+  ],
+  "reported_count": 27,
+  "axioms_by_declaration": {
+    "Breakdown.breakdown_on_space": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Breakdown.breakdown_on_torus": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Breakdown.breakdown_on_space_of_weak": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Breakdown.fractional_breakdown_on_space": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Breakdown.fractional_breakdown_on_torus": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Breakdown.certificate_orbit": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Breakdown.ModeWeights.multiplier_density": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Breakdown.ModeWeights.mode_azimuthal_gain": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Breakdown.ModeWeights.stretch_mean_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Breakdown.ModeWeights.multiplierInequality_of_density": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Breakdown.PieceWeights.piece_multiplier_density": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Breakdown.PieceWeights.multiplierInequality_of_pieceDensity": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Breakdown.isExtendedCertificate_withUnitWeight": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Breakdown.isExtendedCertificate_atProfile": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Breakdown.extended_certificate_orbit": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Breakdown.CoerciveWeak.IsWeakSecondDerivState.secondDeriv_symm": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Breakdown.CoerciveWeak.vortGradMap_secondDerivField": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Breakdown.CoerciveWeak.pieceMultiplierDensityWeak": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Breakdown.CoerciveWeak.extendedCoerciveClause_of_pieceData": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Breakdown.SteadyCert.fracCertificate_profile": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Breakdown.certificate_breakdown_on_space": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Breakdown.extended_certificate_breakdown_on_space": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Breakdown.fractional_certificate_breakdown": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Breakdown.CellCert.CellSystem.fractional_breakdown_of_cell_system": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Breakdown.CellLayerSystem.breakdownOnSpace_of_cell_system_condition": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Breakdown.CellLayerSystem.breakdownOnTorus_of_cell_system_condition": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Breakdown.CellLayerSystem.breakdownOnSpaceAndTorus_of_cell_system_condition": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  "missing": [],
+  "unexpected": [],
+  "duplicates": [],
+  "disallowed_axioms": {},
+  "additional_declarations_allowlist": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ]
+}
