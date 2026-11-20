@@ -1,0 +1,129 @@
+{
+  "check": "git_working_tree_and_source_inventory",
+  "status": "passed",
+  "upstream": "https://github.com/tristanbuckmaster/navier-stokes",
+  "commit": "ad53419de079eb8f95f60313473374624a348546",
+  "git_tree": "96db4860a29e55ea2dc3fb8929e76f128fcc1712",
+  "tracked_files_verified": 2285,
+  "lean_files": 2271,
+  "lean_lines": 616060,
+  "breakdown_modules": 2259,
+  "paper": {
+    "file": "paper/finite-time-blow-up-navier-stokes.pdf",
+    "sha256": "4a01929b2f8a595637bbbe1dfef9724e5de768d31283d62415ce045e2ed69901",
+    "bytes": 1615293
+  },
+  "toolchain_pin": "leanprover/lean4:v4.33.1",
+  "dependency_pins": {
+    "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+    "plausible": "b7eb3304aeae834b12dda98993a37f6a41f6f0bb",
+    "LeanSearchClient": "5f4d51b81cbd3f6b32b156bfad9056621a040404",
+    "importGraph": "16f02aa7642864af59f1ff0e384a015994db9118",
+    "proofwidgets": "4be2e3d5087eeb272cf5a8853b8f9dd025ef5957",
+    "aesop": "3448c0bcc5ce01b2d1546e483ec3620e32df3d0e",
+    "Qq": "92c15be17b7caf78c2ad767ec40f89052d908d81",
+    "batteries": "4488d40d070b9700d4d5a6aa342f0d40c31b2a2d",
+    "Cli": "6130a47896ce867c6a4a55373441e59e565bad0f"
+  },
+  "comparator_config_count": 6,
+  "unique_comparator_targets": 19,
+  "upstream_print_axioms_count": 27,
+  "targets_missing_from_print_script": [],
+  "additional_print_script_targets": [
+    "Breakdown.CoerciveWeak.IsWeakSecondDerivState.secondDeriv_symm",
+    "Breakdown.CoerciveWeak.pieceMultiplierDensityWeak",
+    "Breakdown.CoerciveWeak.vortGradMap_secondDerivField",
+    "Breakdown.certificate_breakdown_on_space",
+    "Breakdown.extended_certificate_breakdown_on_space",
+    "Breakdown.fractional_certificate_breakdown",
+    "Breakdown.isExtendedCertificate_atProfile",
+    "Breakdown.isExtendedCertificate_withUnitWeight"
+  ],
+  "configs": {
+    "comparator-cell-layer.json": {
+      "challenge_module": "CellLayerTheorems",
+      "solution_module": "Solution",
+      "theorem_names": [
+        "Breakdown.CellLayerSystem.breakdownOnSpace_of_cell_system_condition",
+        "Breakdown.CellLayerSystem.breakdownOnTorus_of_cell_system_condition",
+        "Breakdown.CellLayerSystem.breakdownOnSpaceAndTorus_of_cell_system_condition"
+      ],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ]
+    },
+    "comparator-certificate.json": {
+      "challenge_module": "ExtendedCoerciveChallenge",
+      "solution_module": "Solution",
+      "theorem_names": [
+        "Breakdown.certificate_orbit",
+        "Breakdown.ModeWeights.multiplier_density",
+        "Breakdown.ModeWeights.mode_azimuthal_gain",
+        "Breakdown.ModeWeights.stretch_mean_bound",
+        "Breakdown.ModeWeights.multiplierInequality_of_density",
+        "Breakdown.PieceWeights.piece_multiplier_density",
+        "Breakdown.PieceWeights.multiplierInequality_of_pieceDensity",
+        "Breakdown.extended_certificate_orbit",
+        "Breakdown.CoerciveWeak.extendedCoerciveClause_of_pieceData"
+      ],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ]
+    },
+    "comparator-fractional-cell-system.json": {
+      "challenge_module": "FractionalCellSystemChallenge",
+      "solution_module": "Solution",
+      "theorem_names": [
+        "Breakdown.CellCert.CellSystem.fractional_breakdown_of_cell_system"
+      ],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ]
+    },
+    "comparator-fractional-certificate.json": {
+      "challenge_module": "FractionalCertificateChallenge",
+      "solution_module": "Solution",
+      "theorem_names": [
+        "Breakdown.SteadyCert.fracCertificate_profile"
+      ],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ]
+    },
+    "comparator-fractional.json": {
+      "challenge_module": "FractionalChallenge",
+      "solution_module": "Solution",
+      "theorem_names": [
+        "Breakdown.fractional_breakdown_on_space",
+        "Breakdown.fractional_breakdown_on_torus"
+      ],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ]
+    },
+    "comparator.json": {
+      "challenge_module": "Challenge",
+      "solution_module": "Solution",
+      "theorem_names": [
+        "Breakdown.breakdown_on_space",
+        "Breakdown.breakdown_on_torus",
+        "Breakdown.breakdown_on_space_of_weak"
+      ],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ]
+    }
+  }
+}
