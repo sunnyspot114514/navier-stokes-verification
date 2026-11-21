@@ -45,4 +45,6 @@ lake env lean scripts/PrintAxioms.lean
 
 ## 数值证书
 
+[作者数值证书与验算程序的公开检索（2026-11-21）](certificate-search/2026-11-21/README.md)
+
 论文第 1 页和第 4 页给出了相同的 64 位十六进制摘要。以 SHA-256 对全部 2,285 个受版本控制文件逐一比对，没有整文件匹配。论文提取文本中未找到 SHA-256 算法名称。形式定理以给定剖面、证书或满足条件的数据为前提。具体证书是否满足这些条件，仍需要原始数据及区间验算程序复核。[证书记录](certificate-check.json) · [上游说明](https://github.com/tristanbuckmaster/navier-stokes/blob/ad53419de079eb8f95f60313473374624a348546/README.md)

@@ -1,0 +1,671 @@
+{
+  "schema_version": 1,
+  "checked_from_utc": "2026-11-21T14:39:43Z",
+  "checked_through_utc": "2026-11-21T14:55:43Z",
+  "checked_through_shanghai": "2026-11-21 22:55:43 +08:00",
+  "question": "Public author release of the original numerical witness and its independent interval-arithmetic verifier for the Alpöge–Buckmaster unforced NS paper.",
+  "target": {
+    "upstream": "https://github.com/tristanbuckmaster/navier-stokes",
+    "source_commit": "ad53419de079eb8f95f60313473374624a348546",
+    "authors": [
+      "Levent Alpöge",
+      "Tristan Buckmaster"
+    ],
+    "published_digest": "3f7a335b84b6c7631742cacc5343dfcd11cf72f5221ff79b2b9268790b4b22c5",
+    "digest_length_hex": 64,
+    "algorithm_named_in_paper_text": false,
+    "algorithm_used_for_lookups_and_near_matches": "SHA-256",
+    "paper": "https://github.com/tristanbuckmaster/navier-stokes/blob/ad53419de079eb8f95f60313473374624a348546/paper/finite-time-blow-up-navier-stokes.pdf",
+    "paper_sha256": "4a01929b2f8a595637bbbe1dfef9724e5de768d31283d62415ce045e2ed69901",
+    "paper_pages_with_digest": [
+      1,
+      4
+    ],
+    "embedded_files": [],
+    "external_pdf_uri_annotation_count": 97,
+    "external_pdf_uri_annotation_pages": [
+      75,
+      76,
+      77,
+      78,
+      79
+    ],
+    "external_file_or_launch_annotations": [],
+    "previous_tracked_file_hash_scan": {
+      "report": "../../certificate-check.json",
+      "files": 2285,
+      "matches": [],
+      "commit": "ad53419de079eb8f95f60313473374624a348546"
+    }
+  },
+  "outcome": {
+    "certificate_payload": "not_located_in_checked_public_sources",
+    "matching_author_verifier": "not_located_in_checked_public_sources",
+    "certificate_payload_sha256": null,
+    "certificate_digest_verification": "not_run_no_original_bytes",
+    "numerical_replay": "not_run",
+    "instance_job_started": false,
+    "lean_numerical_condition_groups_checked": 0,
+    "lean_condition_groups_total": 15,
+    "source_of_groups": "https://github.com/tristanbuckmaster/navier-stokes/blob/ad53419de079eb8f95f60313473374624a348546/lean/CellLayerChallenge.lean#L7027-L7046",
+    "lean_condition_groups": [
+      {
+        "name": "cell",
+        "status": "not_evaluated_missing_inputs"
+      },
+      {
+        "name": "shape_valueSets",
+        "status": "not_evaluated_missing_inputs"
+      },
+      {
+        "name": "entry_conditions",
+        "status": "not_evaluated_missing_inputs"
+      },
+      {
+        "name": "enclosure_numbers",
+        "status": "not_evaluated_missing_inputs"
+      },
+      {
+        "name": "coerciveL2_ge",
+        "status": "not_evaluated_missing_inputs"
+      },
+      {
+        "name": "coercivePin_ge",
+        "status": "not_evaluated_missing_inputs"
+      },
+      {
+        "name": "certificate",
+        "status": "not_evaluated_missing_inputs"
+      },
+      {
+        "name": "instantiation",
+        "status": "not_evaluated_missing_inputs"
+      },
+      {
+        "name": "offset_expansion",
+        "status": "not_evaluated_missing_inputs"
+      },
+      {
+        "name": "shift_numbers",
+        "status": "not_evaluated_missing_inputs"
+      },
+      {
+        "name": "frozen_form",
+        "status": "not_evaluated_missing_inputs"
+      },
+      {
+        "name": "adjoint_quadratic",
+        "status": "not_evaluated_missing_inputs"
+      },
+      {
+        "name": "adjoint_links",
+        "status": "not_evaluated_missing_inputs"
+      },
+      {
+        "name": "potential_entries",
+        "status": "not_evaluated_missing_inputs"
+      },
+      {
+        "name": "adjoint_defect",
+        "status": "not_evaluated_missing_inputs"
+      }
+    ],
+    "previous_formal_replay": "../../verification.json"
+  },
+  "primary_channels": {
+    "official_repository": {
+      "current_commit": "ad53419de079eb8f95f60313473374624a348546",
+      "updated_utc": "2026-11-20T13:33:17Z",
+      "head_tree": "96db4860a29e55ea2dc3fb8929e76f128fcc1712",
+      "published_releases": 0,
+      "tags": [],
+      "refs": [
+        [
+          "refs/heads/main",
+          "ad53419de079eb8f95f60313473374624a348546"
+        ],
+        [
+          "refs/pull/4/head",
+          "2e4a7501c94517861d9b7d9ee9b730ca5f48ac14"
+        ],
+        [
+          "refs/pull/4/merge",
+          "efb96a39663e8a8e2e8df914a166154e39f5e361"
+        ]
+      ],
+      "actions_artifacts": 0,
+      "has_discussions": false,
+      "has_pages": false,
+      "has_wiki": false,
+      "issues_and_prs": [
+        {
+          "number": 5,
+          "title": "Please add a LICENSE file",
+          "state": "open",
+          "comments": 0,
+          "url": "https://github.com/tristanbuckmaster/navier-stokes/issues/5",
+          "author_association": "NONE"
+        },
+        {
+          "number": 4,
+          "title": "README: say how to run the axiom check in scripts/PrintAxioms.lean",
+          "state": "open",
+          "comments": 0,
+          "url": "https://github.com/tristanbuckmaster/navier-stokes/pull/4",
+          "author_association": "NONE"
+        },
+        {
+          "number": 3,
+          "title": "An axisymmetric test of the D term in (B.20)",
+          "state": "open",
+          "comments": 0,
+          "url": "https://github.com/tristanbuckmaster/navier-stokes/issues/3",
+          "author_association": "NONE"
+        },
+        {
+          "number": 2,
+          "title": "Proposition B.1 (p. 55) is stated without the joins across y₃ = 0",
+          "state": "open",
+          "comments": 1,
+          "url": "https://github.com/tristanbuckmaster/navier-stokes/issues/2",
+          "author_association": "NONE"
+        },
+        {
+          "number": 1,
+          "title": "Link every lemma and theorem to the formal proof?",
+          "state": "open",
+          "comments": 0,
+          "url": "https://github.com/tristanbuckmaster/navier-stokes/issues/1",
+          "author_association": "NONE"
+        }
+      ],
+      "related_request": {
+        "url": "https://github.com/tristanbuckmaster/navier-stokes/issues/3",
+        "comments": 0,
+        "status": "open",
+        "notes": "Public question requests a date for the numerical certificate."
+      },
+      "readme": "https://github.com/tristanbuckmaster/navier-stokes/blob/ad53419de079eb8f95f60313473374624a348546/README.md",
+      "releases_api": "https://api.github.com/repos/tristanbuckmaster/navier-stokes/releases",
+      "tags_api": "https://api.github.com/repos/tristanbuckmaster/navier-stokes/tags",
+      "actions_api": "https://api.github.com/repos/tristanbuckmaster/navier-stokes/actions/artifacts",
+      "fork_network": {
+        "fork_count": 24,
+        "forks_enumerated": 24,
+        "branches": 25,
+        "all_default_branch_tips_match_paper": true,
+        "branch_or_tag_page_truncated": false,
+        "release_count": 0,
+        "tag_count": 0,
+        "extra_heads": [
+          {
+            "repository": "nick4fake/navier-stokes",
+            "branch": "readme-axiom-check",
+            "commit": "2e4a7501c94517861d9b7d9ee9b730ca5f48ac14"
+          }
+        ],
+        "extra_head_changes_observed_in_pr": [
+          "README.md"
+        ],
+        "forks_page": "https://github.com/tristanbuckmaster/navier-stokes/forks",
+        "pr": "https://github.com/tristanbuckmaster/navier-stokes/pull/4/files"
+      }
+    },
+    "authors_github": [
+      {
+        "account": "tristanbuckmaster",
+        "repository_count": 3,
+        "list_complete": true,
+        "public_gists": 0,
+        "releases": [],
+        "api": "https://api.github.com/users/tristanbuckmaster/repos?type=owner&per_page=100"
+      },
+      {
+        "account": "alpoge",
+        "repository_count": 26,
+        "list_complete": true,
+        "public_gists": 0,
+        "releases": [
+          {
+            "repository": "alpoge/llama.cpp",
+            "tag": "b2993",
+            "published_utc": "2024-05-25T06:16:54Z",
+            "url": "https://github.com/alpoge/llama.cpp/releases/tag/b2993"
+          }
+        ],
+        "api": "https://api.github.com/users/alpoge/repos?type=owner&per_page=100"
+      }
+    ],
+    "authors_websites": [
+      {
+        "url": "https://cims.nyu.edu/~tristanb/",
+        "http": 200,
+        "fetched_utc": "2026-11-21T14:42:50+00:00",
+        "role": "University homepage",
+        "inspected_visible_links": 23,
+        "target_file_located": false
+      },
+      {
+        "url": "https://cims.nyu.edu/~tristanb/publications/",
+        "http": 200,
+        "fetched_utc": "2026-11-21T14:43:57+00:00",
+        "role": "Publication list",
+        "inspected_visible_links": 56,
+        "target_file_located": false
+      },
+      {
+        "url": "https://alpo.ge/",
+        "http": 200,
+        "fetched_utc": "2026-11-21T14:42:50+00:00",
+        "role": "Author homepage",
+        "inspected_visible_links": 43,
+        "target_file_located": false
+      },
+      {
+        "url": "https://people.math.harvard.edu/~alpoge/",
+        "http": 200,
+        "fetched_utc": "2026-11-21T14:42:50+00:00",
+        "role": "HTML meta-refresh to alpo.ge",
+        "inspected_visible_links": 0,
+        "target_file_located": false
+      }
+    ],
+    "mastodon": {
+      "permalink": "https://mastodon.social/@tristanbuckmaster/117649035783718539",
+      "status_api": "https://mastodon.social/api/v1/statuses/117649035783718539",
+      "posted_utc": "2026-11-20T13:37:00.439Z",
+      "links": [
+        "https://cims.nyu.edu/~tristanb/cc.pdf",
+        "https://github.com/tristanbuckmaster/navier-stokes/"
+      ],
+      "media_attachments": 0,
+      "public_statuses_returned": 12,
+      "latest_returned_utc": "2026-11-20T13:37:00.439Z",
+      "timeline_api": "https://mastodon.social/api/v1/accounts/117226703312193175/statuses?limit=40&exclude_reblogs=True",
+      "thread_reply_count": 6,
+      "replies_from_author_in_thread": 0
+    },
+    "companion_project": {
+      "name": "mcoiculescu/EulerBlowupPublic",
+      "url": "https://github.com/mcoiculescu/EulerBlowupPublic",
+      "published_releases": 0,
+      "topic": "Three-dimensional Euler singularity"
+    }
+  },
+  "hash_leads": {
+    "code_search": {
+      "api": "https://api.github.com/search/code?q=3f7a335b84b6c7631742cacc5343dfcd11cf72f5221ff79b2b9268790b4b22c5",
+      "total": 2,
+      "search_reported_complete": true,
+      "known_public_digest_not_returned": "https://github.com/sunnyspot114514/navier-stokes-verification/blob/231ee4340b37516f3cb77e6184779c8747face16/certificate-check.json",
+      "hits": [
+        {
+          "url": "https://github.com/Develata/AI-Barking/blob/f84795d2f999f5214f94de698e7d3142f56f2cff/docs/2611/1120/sources/evidence-c.md",
+          "path": "docs/2611/1120/sources/evidence-c.md",
+          "classification": "third-party research note",
+          "bytes": 39274,
+          "whole_file_sha256": "36ecbe4b4f621bfac3a632a99d98b2b597777e96fbefedd7bde7c45d025e7eaa",
+          "contains_target_digest_text": true,
+          "whole_file_sha256_matches": false
+        },
+        {
+          "url": "https://github.com/Develata/AI-Barking/blob/f84795d2f999f5214f94de698e7d3142f56f2cff/docs/2611/1120/sources/c-ns-pdf.txt",
+          "path": "docs/2611/1120/sources/c-ns-pdf.txt",
+          "classification": "plain-text paper transcription",
+          "bytes": 350391,
+          "whole_file_sha256": "ab2af7b9549f6aa6768b362e7fbe65acc7c3300dd6da4e566e032e9328b88a26",
+          "contains_target_digest_text": true,
+          "whole_file_sha256_matches": false
+        }
+      ]
+    },
+    "content_addressed_archive": {
+      "target": {
+        "url": "https://archive.softwareheritage.org/api/1/content/sha256:3f7a335b84b6c7631742cacc5343dfcd11cf72f5221ff79b2b9268790b4b22c5/",
+        "http": 404,
+        "fetched_utc": "2026-11-21T14:46:35+00:00"
+      },
+      "repeat": {
+        "url": "https://archive.softwareheritage.org/api/1/content/sha256:3f7a335b84b6c7631742cacc5343dfcd11cf72f5221ff79b2b9268790b4b22c5/",
+        "http": 404,
+        "fetched_utc": "2026-11-21T14:48:08+00:00"
+      },
+      "result": "HTTP 404 for requested content hash",
+      "positive_control": {
+        "url": "https://archive.softwareheritage.org/api/1/content/sha256:a948904f2f0f479b8f8197694b30184b0d2ed1c1cd2a1ec0fb85d299a192a447/",
+        "http": 200,
+        "fetched_utc": "2026-11-21T14:48:08+00:00",
+        "returned_sha256": "a948904f2f0f479b8f8197694b30184b0d2ed1c1cd2a1ec0fb85d299a192a447"
+      }
+    },
+    "other_verifier_searches": [
+      {
+        "api": "https://api.github.com/search/code?q=%22CellSystemCondition%22%20%22FLINT%22&per_page=100",
+        "total": 0,
+        "incomplete": false,
+        "hit_paths": []
+      },
+      {
+        "api": "https://api.github.com/search/code?q=%22Buckmaster%22%20%22arb.h%22&per_page=100",
+        "total": 0,
+        "incomplete": false,
+        "hit_paths": []
+      },
+      {
+        "api": "https://api.github.com/search/code?q=%22tristanbuckmaster%2Fnavier-stokes%22%20%22FLINT%22&per_page=100",
+        "total": 11,
+        "incomplete": false,
+        "hit_paths": [
+          "Develata/AI-Barking/docs/2611/1120/sources/c-ns-gh.txt",
+          "jamesroutley/news.routley.io/docs/posts/finite-time-blow-up-for-the-navier-stokes-equations.html",
+          "FunnymeowwooV0/star-observatory/archive/2026-11.md",
+          "Develata/AI-Barking/docs/2611/1120/sources/evidence-c.md",
+          "korbonits/korbonits.github.io/src/content/blog/2026-11-20-in-decreasing-order-of-digestion.md",
+          "dfeldman/quackernews/output/output.json",
+          "DayuanJiang/TechRSS/data/hn-archive/50576232.json",
+          "maciektora-hue/maciektora-hue.github.io/rownania/navier-stokes-esej-dla-niematematyka.html",
+          "maciektora-hue/maciektora-hue.github.io/rownania/navier-stokes-essay-for-non-mathematician-EN.html",
+          "brt-rj/brt-public-state/briefs/no-flab-brief/latest.json",
+          "brt-rj/brt-public-state/briefs/no-flab-brief/releases/2026-11-20.json"
+        ]
+      }
+    ],
+    "repository_readme_full_hash_matches": 0,
+    "repository_search_target_terms": {
+      "related_readmes": 31,
+      "certificate_name_or_description_hits": 11
+    },
+    "other_software_screened": [
+      "https://github.com/cammackj/ns-enstrophy-certificates",
+      "https://github.com/mary-octavia/navier-stokes-proof",
+      "https://github.com/ravanova/blowup-search",
+      "https://github.com/openai/NavierStokesAndEuler"
+    ],
+    "github_repository_queries": [
+      {
+        "query": "\"3f7a335b84b6c7631742cacc5343dfcd11cf72f5221ff79b2b9268790b4b22c5\" in:readme fork:true",
+        "returned": 0,
+        "url": "https://api.github.com/search/repositories?q=%223f7a335b84b6c7631742cacc5343dfcd11cf72f5221ff79b2b9268790b4b22c5%22%20in%3Areadme%20fork%3Atrue"
+      },
+      {
+        "query": "Buckmaster \"Navier-Stokes\" \"certificate\" in:readme pushed:>=2026-11-19 fork:true",
+        "returned": 31,
+        "url": "https://api.github.com/search/repositories?q=Buckmaster%20%22Navier-Stokes%22%20%22certificate%22%20in%3Areadme%20pushed%3A%3E%3D2026-11-19%20fork%3Atrue"
+      },
+      {
+        "query": "navier-stokes certificate in:name,description",
+        "returned": 11,
+        "url": "https://api.github.com/search/repositories?q=navier-stokes%20certificate%20in%3Aname%2Cdescription"
+      }
+    ]
+  },
+  "archives": [
+    {
+      "id": "zenodo-digest",
+      "url": "https://zenodo.org/api/records?q=%223f7a335b84b6c7631742cacc5343dfcd11cf72f5221ff79b2b9268790b4b22c5%22&size=15",
+      "http": 200,
+      "fetched_utc": "2026-11-21T14:42:55+00:00",
+      "returned_count": 0,
+      "disposition": "no indexed digest"
+    },
+    {
+      "id": "zen-tr25",
+      "url": "https://zenodo.org/api/records?q=metadata.creators.person_or_org.family_name%3ABuckmaster&size=25&page=1&fields=id%2Cmetadata.title%2Cmetadata.creators%2Clinks.self_html",
+      "http": 200,
+      "fetched_utc": "2026-11-21T14:48:08+00:00",
+      "returned_count": 36,
+      "disposition": "Two pages of surname records screened; no target publication or file.",
+      "pages": [
+        {
+          "url": "https://zenodo.org/api/records?q=metadata.creators.person_or_org.family_name%3ABuckmaster&size=25&page=1&fields=id%2Cmetadata.title%2Cmetadata.creators%2Clinks.self_html",
+          "http": 200,
+          "fetched_utc": "2026-11-21T14:48:08+00:00"
+        },
+        {
+          "url": "https://zenodo.org/api/records?q=metadata.creators.person_or_org.family_name%3ABuckmaster&size=25&page=2&fields=id%2Cmetadata.title%2Cmetadata.creators%2Clinks.self_html",
+          "http": 200,
+          "fetched_utc": "2026-11-21T14:49:36+00:00"
+        }
+      ],
+      "unique_records_screened": 36
+    },
+    {
+      "id": "zen-first-last",
+      "url": "https://zenodo.org/api/records?q=metadata.creators.person_or_org.family_name%3ABuckmaster+AND+metadata.creators.person_or_org.given_name%3ATristan&size=5",
+      "http": 200,
+      "fetched_utc": "2026-11-21T14:49:36+00:00",
+      "returned_count": 0,
+      "disposition": "no creator match for both surname and given name in these fields"
+    },
+    {
+      "id": "zen-a1",
+      "url": "https://zenodo.org/api/records?q=metadata.creators.person_or_org.family_name%3A%22Alp%C3%B6ge%22&size=5&fields=id%2Cmetadata.title%2Cmetadata.creators%2Clinks.self_html",
+      "http": 200,
+      "fetched_utc": "2026-11-21T14:46:35+00:00",
+      "returned_count": 1,
+      "disposition": "listed record concerns the Riemann hypothesis; its displayed files are not the NS certificate",
+      "excluded_doi": "10.5281/zenodo.24406998"
+    },
+    {
+      "id": "zen-al-plain",
+      "url": "https://zenodo.org/api/records?q=metadata.creators.person_or_org.family_name%3AAlpoge&size=5",
+      "http": 200,
+      "fetched_utc": "2026-11-21T14:48:08+00:00",
+      "returned_count": 0,
+      "disposition": "no matching plain-ASCII surname record"
+    },
+    {
+      "id": "datacite-digest",
+      "url": "https://api.datacite.org/dois?query=%223f7a335b84b6c7631742cacc5343dfcd11cf72f5221ff79b2b9268790b4b22c5%22&page%5Bsize%5D=20",
+      "http": 200,
+      "fetched_utc": "2026-11-21T14:42:50+00:00",
+      "returned_count": 0,
+      "disposition": "no indexed digest"
+    },
+    {
+      "id": "datacite-joint",
+      "url": "https://api.datacite.org/dois?query=%28creators.familyName%3AAlp%C3%B6ge+OR+creators.familyName%3AAlpoge%29+AND+creators.familyName%3ABuckmaster&page%5Bsize%5D=35",
+      "http": 200,
+      "fetched_utc": "2026-11-21T14:43:57+00:00",
+      "returned_count": 1,
+      "disposition": "other paper on IPM with forcing",
+      "returned": [
+        {
+          "doi": "10.48550/arxiv.2609.16470",
+          "t": "Extending the Córdoba-Martínez-Zoroa IPM Blow-Up to Uniformly Space-Time Smooth Forcing",
+          "type": "Preprint",
+          "url": "https://arxiv.org/abs/2609.16470"
+        }
+      ]
+    },
+    {
+      "id": "datacite-auth",
+      "url": "https://api.datacite.org/dois?query=creators.familyName%3ABuckmaster+AND+%28Navier+OR+certificate+OR+blowup%29&page%5Bsize%5D=35",
+      "http": 200,
+      "fetched_utc": "2026-11-21T14:42:50+00:00",
+      "returned_count": 10,
+      "disposition": "title and author metadata screened; no matching certificate or verifier",
+      "dois": [
+        "10.48550/arxiv.2609.16470",
+        "10.48550/arxiv.2509.14185",
+        "10.48550/arxiv.2208.09445",
+        "10.48550/arxiv.2301.10101",
+        "10.48550/arxiv.2410.15619",
+        "10.48550/arxiv.1709.10033",
+        "10.48550/arxiv.1809.00600",
+        "10.48550/arxiv.1901.09023",
+        "10.48550/arxiv.1907.03784",
+        "10.48550/arxiv.2006.14789"
+      ]
+    },
+    {
+      "id": "datacite-title",
+      "url": "https://api.datacite.org/dois?query=titles.title%3A%22Finite-time+blow-up+for+the+Navier-Stokes+equations%22&page%5Bsize%5D=35",
+      "http": 200,
+      "fetched_utc": "2026-11-21T14:43:57+00:00",
+      "returned_count": 6,
+      "disposition": "similar titles by other authors",
+      "dois": [
+        "10.5281/zenodo.21280526",
+        "10.5281/zenodo.21280527",
+        "10.5281/zenodo.22117097",
+        "10.5281/zenodo.17298388",
+        "10.5281/zenodo.17353407",
+        "10.48550/arxiv.2407.06776"
+      ]
+    },
+    {
+      "id": "figshare",
+      "url": "https://api.figshare.com/v2/articles/search",
+      "http": 200,
+      "fetched_utc": "2026-11-21T14:42:55+00:00",
+      "returned_count": 0,
+      "disposition": "no article returned for the combined search",
+      "method": "POST",
+      "body": {
+        "search_for": "\"Buckmaster\" \"Navier\"",
+        "limit": 65
+      }
+    },
+    {
+      "id": "fig-digest",
+      "url": "https://api.figshare.com/v2/articles/search",
+      "http": 200,
+      "fetched_utc": "2026-11-21T14:49:36+00:00",
+      "returned_count": 0,
+      "disposition": "no indexed digest",
+      "method": "POST",
+      "body": {
+        "search_for": "3f7a335b84b6c7631742cacc5343dfcd11cf72f5221ff79b2b9268790b4b22c5",
+        "limit": 25
+      }
+    },
+    {
+      "id": "figshare-name",
+      "url": "https://api.figshare.com/v2/articles/search",
+      "http": 200,
+      "fetched_utc": "2026-11-21T14:44:02+00:00",
+      "returned_count": 67,
+      "disposition": "surname search screened; the returned fluid-related titles concern different work",
+      "method": "POST",
+      "body": {
+        "search_for": "Buckmaster",
+        "limit": 100
+      }
+    },
+    {
+      "id": "dataverse",
+      "url": "https://dataverse.harvard.edu/api/search?q=%22Buckmaster%22+AND+%28%22Navier%22+OR+%22certificate%22%29&type=dataset&per_page=30",
+      "http": 200,
+      "fetched_utc": "2026-11-21T14:43:57+00:00",
+      "returned_count": 0,
+      "disposition": "no matching dataset"
+    },
+    {
+      "id": "dryad",
+      "url": "https://datadryad.org/api/v2/search?q=Buckmaster+AND+%22Navier%22&per_page=30",
+      "http": 200,
+      "fetched_utc": "2026-11-21T14:46:35+00:00",
+      "returned_count": 0,
+      "disposition": "no matching dataset"
+    },
+    {
+      "id": "osf-target",
+      "url": "https://api.osf.io/v2/registrations/?filter%5Btitle%5D=Finite-time+blow-up+for+the+Navier&page%5Bsize%5D=20",
+      "http": 200,
+      "fetched_utc": "2026-11-21T14:43:57+00:00",
+      "returned_count": 0,
+      "disposition": "no matching registration"
+    },
+    {
+      "id": "osf-nodes",
+      "url": "https://api.osf.io/v2/nodes/?filter%5Btitle%5D=Finite-time+blow-up+for+the+Navier&page%5Bsize%5D=30",
+      "http": 200,
+      "fetched_utc": "2026-11-21T14:46:35+00:00",
+      "returned_count": 0,
+      "disposition": "no matching public project for the title filter"
+    },
+    {
+      "id": "gitlab",
+      "url": "https://gitlab.com/api/v4/projects?search=navier-stokes-certificate&simple=True&per_page=50",
+      "http": 200,
+      "fetched_utc": "2026-11-21T14:46:35+00:00",
+      "returned_count": 0,
+      "disposition": "no matching public project for the queried name"
+    },
+    {
+      "id": "hf-buck",
+      "url": "https://huggingface.co/api/datasets?search=Buckmaster&limit=100",
+      "http": 200,
+      "fetched_utc": "2026-11-21T14:42:56+00:00",
+      "returned_count": 0,
+      "disposition": "no matching dataset for surname"
+    },
+    {
+      "id": "hf-cert",
+      "url": "https://huggingface.co/api/datasets?search=navier-stokes-certificate&limit=100",
+      "http": 200,
+      "fetched_utc": "2026-11-21T14:44:02+00:00",
+      "returned_count": 0,
+      "disposition": "no matching dataset for the queried project name"
+    }
+  ],
+  "preprints_and_leads": {
+    "arxiv": {
+      "url": "https://export.arxiv.org/api/query?search_query=%28au%3ABuckmaster+AND+au%3AAlpoge%29+OR+%28au%3ABuckmaster+AND+ti%3A%22Finite-time+blow-up+for+the+Navier-Stokes+equations%22%29&max_results=35&sortBy=submittedDate&sortOrder=descending",
+      "http": 200,
+      "fetched_utc": "2026-11-21T14:42:55+00:00",
+      "query_results": 1,
+      "returned_arxiv_id": "2609.16470v1",
+      "subject": "IPM with forcing"
+    },
+    "aixiv": {
+      "page": "https://aixiv.online/abs/2611.02204",
+      "reproduce_page": "https://aixiv.online/reproduce/2611.02204",
+      "reproduce_page_purpose": "Form to submit a reproduction report; original NS GitHub repository is linked",
+      "same_numeric_id_on_arxiv": "https://export.arxiv.org/api/query?id_list=2611.02204",
+      "arxiv_title": "Learning from high-resolution 2D images to reconstruct 3D microstructures"
+    },
+    "hexagon": {
+      "title_query": {
+        "url": "https://hexagonmath.org/search?q=Finite-time+blow-up+for+the+Navier%E2%80%93Stokes+equations",
+        "http": 200,
+        "fetched_utc": "2026-11-21T14:53:24+00:00"
+      },
+      "title_hits": 0,
+      "author_query": {
+        "url": "https://hexagonmath.org/search?q=Tristan+Buckmaster",
+        "http": 200,
+        "fetched_utc": "2026-11-21T14:53:24+00:00"
+      },
+      "author_hits": 1,
+      "other_work": "https://hexagonmath.org/2611.00143v1",
+      "other_work_topic": "Non-uniqueness of Leray–Hopf solutions"
+    },
+    "crossref": {
+      "url": "https://api.crossref.org/works?query.bibliographic=Finite-time+blow-up+for+the+Navier-Stokes+equations+Alp%C3%B6ge+Buckmaster&rows=8&select=title%2CDOI%2Cauthor%2Crelation%2Ctype%2CURL%2Clink",
+      "http": 200,
+      "fetched_utc": "2026-11-21T14:46:41+00:00",
+      "results_screened": 8,
+      "target_identified": false
+    },
+    "public_discussion": {
+      "page": "https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis/",
+      "secondary_doi_lead": "https://doi.org/10.5281/zenodo.24410057",
+      "doi_resolution": {
+        "url": "https://api.datacite.org/dois/10.5281/zenodo.24410057",
+        "http": 200,
+        "fetched_utc": "2026-11-21T14:53:24+00:00"
+      },
+      "lead_title": "The Riemann hypothesis for Dirichlet L-functions [after Levent Alpöge]",
+      "hn_thread": "https://news.ycombinator.com/item?id=50576232",
+      "target_asset_from_discussion": false
+    }
+  },
+  "limitations": [
+    "This is a dated search of public sources; unindexed, private, or later releases are outside the result.",
+    "A missing metadata search hit or archival object does not establish that the file does not exist.",
+    "Two supplementary complex Zenodo queries returned service errors. Positive HTTP responses on the surname pages, exact-author fields and digest search were used for the tabulated findings.",
+    "The paper gives 64 hexadecimal digits without naming the hash algorithm in the extracted text. SHA-256 is the explicit interpretation used for content-addressed lookup and near-match checks."
+  ]
+}
